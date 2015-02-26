@@ -30,7 +30,7 @@
 	background-color: white;
 	border-radius:30px;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
   	.leaflet-infoWindow {
 		left: 10%;
 		top:10%;
@@ -39,6 +39,7 @@
 }
 .leaflet-infoWindow .leaflet-title {
 	height:20%;
+	max-height: 100px;
 	padding:0% 10%;
 	overflow: hidden;
 	text-align: center;
