@@ -5,6 +5,11 @@
 	position: absolute;
 	z-index: 1000;
 	display: none;
+
+	cursor: auto;
+	font-weight: normal;
+	font-size: medium;
+	font-family: serif;
 }
 .leaflet-info-button {
 	font-size:18px;
