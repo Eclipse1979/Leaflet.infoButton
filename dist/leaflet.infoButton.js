@@ -29,6 +29,7 @@ L.Control.InfoButton = L.Control.extend({
         this.content.innerHTML = this.options.html;
         L.DomEvent.disableClickPropagation(this.infoWindow);
         L.DomEvent.disableClickPropagation(this.infoWindow);
+        if (this.options.show) this._showInfo();
         return this.container;
     },
     _stopClick: function(e) {
