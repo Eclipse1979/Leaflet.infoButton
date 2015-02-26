@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	<link rel="stylesheet" href="example.css" />
 	<link rel="stylesheet" href="../dist/leaflet.infoButton.css" />
 	<script src="leaflet/leaflet.js"></script>
 	<script src="../dist/leaflet.infoButton.js"></script>
@@ -27,7 +28,7 @@
 		}).addTo(map);
 
 
-		var infoButton = L.control.infoButton({}).addTo(map);
+		var infoButton = L.control.infoButton({linkTitle: 'About this map', title: '<h2>About this map</h2>'}).addTo(map);
 
 	</script>
 </body>

@@ -24,12 +24,32 @@
 	width: 60%;
 	background-color: white;
 	border-radius:30px;
-}@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 640px) {
   	.leaflet-infoWindow {
 		left: 10%;
 		top:10%;
 		width: 80%;
 	}
+}
+.leaflet-infoWindow .leaflet-title {
+	height:20%;
+	padding:0% 10%;
+	overflow: hidden;
+	text-align: center;
+}
+.leaflet-infoWindow .leaflet-title * {
+	margin-top: 35px;
+}
+
+
+.leaflet-infoWindow .leaflet-content{
+	height:70%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+  	border-top:1px solid #d0d0d0;
+  	border-bottom:1px solid #d0d0d0;
+  	padding:0% 7% 0 5%;
 }
 
 @-webkit-keyframes showInfo {
