@@ -21,9 +21,9 @@ Methods are the same as those of [Control](http://leafletjs.com/reference.html#c
 
 ## Options :
 Options are the same as those of [Control](http://leafletjs.com/reference.html#control) plus :
-* `linkTitle:` link text of the button, default is `Leaflet`
-* `title:` title of the popup box, default is `'<h1>Leaflet</h1>'`
-* `show:` wether, default is `false`
+* `linkTitle:` link text of the button, default is `'About'`
+* `title:` title of the popup box, default is `'&lt;h1&gt;Leaflet&lt;/h1&gt;'`
+* `show:` wether the popup should activate at the beginning, default is `false`
 * `html:` html content of the popup, default is :
 
 
