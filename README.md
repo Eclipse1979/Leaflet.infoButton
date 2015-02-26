@@ -25,5 +25,7 @@ Options are the same as those of [Control](http://leafletjs.com/reference.html#c
 * `title:` Title of the popup box, default is `''`
 * `show:` wether, default is `false`
 * `html:` maximal number of markers, default is :
-`<p>Leaflet is an open source JavaScript library for <strong>mobile-friendly interactive maps</strong>. It is developed by <a href="http://agafonkin.com/en/">Vladimir Agafonkin</a> of <a href="https://mapbox.com>MapBox</a> with a team of dedicated <a href="https://github.com/Leaflet/Leaflet/graphs/contributors">contributors</a>. Weighing just about 30 KB of gzipped JS code, it has all the <a href="leafletjs.com/features.html">features</a> most developers ever need for online maps.</p>'`
+
+
+    <p>Leaflet is an open source JavaScript library for <strong>mobile-friendly interactive maps</strong>. It is developed by <a href="http://agafonkin.com/en/">Vladimir Agafonkin</a> of <a href="https://mapbox.com>MapBox</a> with a team of dedicated <a href="https://github.com/Leaflet/Leaflet/graphs/contributors">contributors</a>. Weighing just about 30 KB of gzipped JS code, it has all the <a href="leafletjs.com/features.html">features</a> most developers ever need for online maps.</p>
 
